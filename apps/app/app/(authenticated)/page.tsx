@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 };
 
 const App = async () => {
-  const pages = await database.page.findMany();
+  const pages = await database.select().from(page);
   const { orgId } = await auth();
 
   if (!orgId) {
