@@ -18,7 +18,7 @@
     "@types/negotiator": "^0.6.3",
     "@types/node": "22.14.1",
     "@types/react": "19.1.1",
-    "@types/react-dom": "^19.1.2",
+    "@types/react-dom": "^19.1.6",
     "next": "15.3.0"
   }
 }
